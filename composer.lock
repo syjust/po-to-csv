@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1511c2f181f595ddeff26b47c7c311b0",
+    "content-hash": "b323eff34b43459c9ed9a549b994b0b1",
     "packages": [
         {
             "name": "psr/cache",
@@ -202,6 +202,60 @@
                 "source": "https://github.com/php-fig/log/tree/1.1.4"
             },
             "time": "2021-05-03T11:20:27+00:00"
+        },
+        {
+            "name": "sepia/po-parser",
+            "version": "6.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulferras/PHP-po-parser.git",
+                "reference": "f60a4a6259b08cc04807c4ad5f59ec5a006bb87b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raulferras/PHP-po-parser/zipball/f60a4a6259b08cc04807c4ad5f59ec5a006bb87b",
+                "reference": "f60a4a6259b08cc04807c4ad5f59ec5a006bb87b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "symfony/polyfill-mbstring": "^1"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "^1.7",
+                "phpunit/phpunit": "^4.8.36",
+                "squizlabs/php_codesniffer": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sepia\\PoParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raúl Ferràs",
+                    "email": "raul.ferras@gmail.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Gettext *.PO file parser for PHP.",
+            "homepage": "https://github.com/raulferras/PHP-po-parser",
+            "keywords": [
+                "gettext",
+                "i10n",
+                "i18n",
+                "po"
+            ],
+            "support": {
+                "issues": "https://github.com/raulferras/PHP-po-parser/issues",
+                "source": "https://github.com/raulferras/PHP-po-parser/tree/6.0.1"
+            },
+            "time": "2020-05-29T05:20:47+00:00"
         },
         {
             "name": "symfony/cache",
